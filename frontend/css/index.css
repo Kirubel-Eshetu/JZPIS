@@ -169,7 +169,11 @@ aside a {
     width: 1430px;
     height: 500px;
     margin-bottom: 0;
+<<<<<<< HEAD
     margin-left: 110px;
+=======
+    margin-left: 70px;
+>>>>>>> 7bacc223da19858204fc9f45dc2a5380406a0e20
     margin-right: 20px;
     /* margin: 0px auto; */
 }
@@ -390,10 +394,13 @@ footer {
         flex-direction: column;
     }
 
+<<<<<<< HEAD
     .additional a:hover {
         text-decoration: underline;
     }
 
+=======
+>>>>>>> 7bacc223da19858204fc9f45dc2a5380406a0e20
     .imagesarea,
     .description {
         display: flex;

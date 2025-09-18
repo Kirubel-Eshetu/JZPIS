@@ -6,7 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage user accounts</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<<<<<<< HEAD
     <link href="css/manageuser.css" rel="stylesheet">
+=======
+    <style>
+        body {
+            background-image: url(Images/lightregister.jpg);
+            background-size: cover;
+            top: 40px;
+        }
+
+        .logout {
+            text-decoration: none;
+            color: white;
+            background-color: red;
+            border-radius: 50%;
+            padding: 20px;
+            font-size: 35px;
+        }
+
+        .contain {
+            text-align: center;
+        }
+
+        #userTable {
+            margin-bottom: 20px;
+        }
+
+
+
+        th,
+        td {
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        .update {
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        .inactive-activate {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .search-container {
+            position: relative;
+            margin: 20px auto;
+            width: 500px;
+        }
+
+        #searchInput {
+            width: calc(100% - 100px);
+            padding: 10px;
+            font-size: 16px;
+            border: 1.5px solid #ccc;
+            border-radius: 8px 0 0 8;
+        }
+
+        #searchButton {
+            width: 100px;
+            padding: 10px;
+            background-color: #007acc;
+            color: #fff;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+        #searchButton:hover {
+            background-color: #005b82;
+        }
+
+        #searchResults {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: calc(100% - 2px);
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-top: none;
+            display: none;
+        }
+
+        .result-item {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            cursor: pointer;
+        }
+
+        .result-item:hover {
+            background-color: #f0f0f0;
+        }
+
+        #google_translate_element {
+            display: none;
+        }
+    </style>
+>>>>>>> 7bacc223da19858204fc9f45dc2a5380406a0e20
 </head>
 
 <body>
@@ -57,7 +155,11 @@
                 <th>' . $no . '</th>
         <td scope="row">' . $id . '</td>
         <td>' . $fullname . '</td>
+<<<<<<< HEAD
         <td><a href="mailto:' . $username . '" class="username">' . $username . '</td>
+=======
+        <td><a href="mailto:' . $username . '">' . $username . '</td>
+>>>>>>> 7bacc223da19858204fc9f45dc2a5380406a0e20
         <td>' . $password . '</td>
         <td>' . $phonenumber . '</td>
         <td>' . $role . '</td>

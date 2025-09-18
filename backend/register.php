@@ -5,7 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register new user</title>
+<<<<<<< HEAD
     <link href="css/register.css" rel="stylesheet">
+=======
+    <style>
+        body{
+            background-image: url(Images/lightregister.jpg);
+            background-size: cover;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+        }
+        form{
+            font-size: 20px;
+        }
+
+        .registerbtn {
+            font-size: 22px;
+            margin-left: 50px;
+            background-color: green;
+            color: white;
+        }
+        #google_translate_element{
+            display: none;
+        }
+    </style>
+>>>>>>> 7bacc223da19858204fc9f45dc2a5380406a0e20
 </head>
 
 <body>
@@ -84,6 +110,10 @@
                 "google_translate_element"
             );
 
+<<<<<<< HEAD
+=======
+            // Ensure the specific paragraph always displays in English
+>>>>>>> 7bacc223da19858204fc9f45dc2a5380406a0e20
             var englishParagraph = document.getElementById("english_paragraph");
             if (englishParagraph) {
                 google.translate.TranslateElement(

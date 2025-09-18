@@ -21,10 +21,17 @@ if (isset($_POST['login_btn'])) {
                 $otp = rand(100000, 999999); // Generating a 6-digit OTP
                 $_SESSION['otp']   = $otp;
                 $_SESSION['pass']  = $password;
+<<<<<<< HEAD
                 include '../../backend/PHPMailer/sendemail.php';
                 
                 // Redirect to verify-otp.php after sending email
                 header('location: ../verify-otp.php');
+=======
+                include 'PHPMailer/sendemail.php';
+                
+                // Redirect to verify-otp.php after sending email
+                header('location: verify-otp.php');
+>>>>>>> 7bacc223da19858204fc9f45dc2a5380406a0e20
                 exit(); // Ensure script execution stops after redirection
             } elseif ($status != 1) {
                 // Account is inactive

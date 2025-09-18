@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 7bacc223da19858204fc9f45dc2a5380406a0e20
 CREATE TABLE `cell_management` (
   `#` int(255) NOT NULL AUTO_INCREMENT,
   `cell_number` varchar(255) NOT NULL,
@@ -17,8 +20,11 @@ INSERT INTO cell_management VALUES("4","R3","4","1","3");
 INSERT INTO cell_management VALUES("5","R4","15","5","10");
 INSERT INTO cell_management VALUES("6","R5","40","30","10");
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 7bacc223da19858204fc9f45dc2a5380406a0e20
 CREATE TABLE `comments` (
   `#` int(11) NOT NULL AUTO_INCREMENT,
   `email_address` varchar(60) NOT NULL,
@@ -31,8 +37,11 @@ INSERT INTO comments VALUES("2","Kerimseidali@gmail.com","I can now look Jimma Z
 INSERT INTO comments VALUES("3","Melkamuabera@gmail.com","I wish I was part of the crew who designed and developed the system.");
 INSERT INTO comments VALUES("4","Kirubelwinner@gmail.com","Hello.");
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 7bacc223da19858204fc9f45dc2a5380406a0e20
 CREATE TABLE `prisoners` (
   `#` int(11) NOT NULL AUTO_INCREMENT,
   `prisoner_id` varchar(10) NOT NULL,
@@ -61,6 +70,7 @@ CREATE TABLE `prisoners` (
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO prisoners VALUES("1","P00001","Adonai Desalegn Merga","In prison","M","2001-10-09","Oromia","Nekemte","Shambo","~Infected with Asthma.<br>
+<<<<<<< HEAD
 ~Underweight.","A+","*Theft.","-Charged with theft 2 years ago.","+251708966963","20240302_102709.jpg","2024-01-07","2026-02-18","R0","0000-00-00","0000-00-00","M001","100");
 INSERT INTO prisoners VALUES("2","P00002","Amanuel Daniel Mamo","In prison","F","2004-03-10","Gambella","Gambella","04","~Good.","A+","*Assault<br>
 *Hate Crime","-No previous criminal records found.","+251912356674<br>
@@ -68,13 +78,26 @@ INSERT INTO prisoners VALUES("2","P00002","Amanuel Daniel Mamo","In prison","F",
 INSERT INTO prisoners VALUES("3","P00003","Chala Golicha Boru","In prison","M","2002-08-23","Addis Abeba","Addis Abeba Bole","09","~Fair","A+","*Burglary","-Kidnapping.<br> 
 -Fraud.<br>","+251986212207","20240303_170648.jpg","2022-04-20","2025-04-20","R1","0000-00-00","0000-00-00","M003","8");
 INSERT INTO prisoners VALUES("4","P00004","Kerim Seid Ali","In prison","M","2000-05-11","Amhara","Gonder","09","~Excellent","AB-","*Cyber crime","-No previous criminal records found.","+0984562213","20240303_165644.jpg","2021-12-28","2024-12-30","R2","0000-00-00","0000-00-00","","100");
+=======
+~Underweight.","A+","*Theft.","-Charged with theft 2 years ago.","+251708966963","20240302_102709.jpg","2024-01-07","2026-02-18","R0","","","M001","100");
+INSERT INTO prisoners VALUES("2","P00002","Amanuel Daniel Mamo","In prison","F","2004-03-10","Gambella","Gambella","04","~Good.","A+","*Assault<br>
+*Hate Crime","-No previous criminal records found.","+251912356674<br>
++251939806607","20240303_165955.jpg","2024-02-25","2024-07-04","R0","","","M002","120");
+INSERT INTO prisoners VALUES("3","P00003","Chala Golicha Boru","In prison","M","2002-08-23","Addis Abeba","Addis Abeba Bole","09","~Fair","A+","*Burglary","-Kidnapping.<br> 
+-Fraud.<br>","+251986212207","20240303_170648.jpg","2022-04-20","2025-04-20","R1","","","M003","8");
+INSERT INTO prisoners VALUES("4","P00004","Kerim Seid Ali","In prison","M","2000-05-11","Amhara","Gonder","09","~Excellent","AB-","*Cyber crime","-No previous criminal records found.","+0984562213","20240303_165644.jpg","2021-12-28","2024-12-30","R2","","","","100");
+>>>>>>> 7bacc223da19858204fc9f45dc2a5380406a0e20
 INSERT INTO prisoners VALUES("5","P00005","Kirubel Eshetu Tefera","In prison","M","2002-02-12","Addis Abeba","Addis Abeba Akaki Kality","09","~Low insulin level.<br>
 ~Low blood pressure.","B-","*Nepotism ","-No previous criminal records found.","+0911146831<br>
 +0912741754","20240302_102636.jpg","2023-06-06","2027-05-20","R2","0000-00-00","0000-00-00","M004","50");
 INSERT INTO prisoners VALUES("6","P00006","Sintayehu Desalegn Hadro","In prison","M","2001-03-08","Southern Nations and","Kembata","06","~Infected with diabetes.","A+","*Political crime <br>*Nepotism","-Charged with corruption 7 years ago.<br>","+251911226539<br>
+<<<<<<< HEAD
 +251737306608","20240303_170725.jpg","2023-02-28","2028-04-11","R3","0000-00-00","0000-00-00","0015","2");
 
 
+=======
++251737306608","20240303_170725.jpg","2023-02-28","2028-04-11","R3","","","0015","2");
+>>>>>>> 7bacc223da19858204fc9f45dc2a5380406a0e20
 
 CREATE TABLE `report` (
   `#` int(200) NOT NULL AUTO_INCREMENT,
@@ -87,8 +110,11 @@ CREATE TABLE `report` (
 INSERT INTO report VALUES("1","P00005","Kirubel Eshetu Tefera","The prisoner stated above is showing very good progress on the improvements of his character. He is becoming a hardworking individual. If he continues by the character he has right now, he may get years of mercy soon.");
 INSERT INTO report VALUES("2","P00001","Kirubel Eshetu Tefera","Good imperovements.");
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 7bacc223da19858204fc9f45dc2a5380406a0e20
 CREATE TABLE `users` (
   `#` int(11) NOT NULL AUTO_INCREMENT,
   `id` varchar(6) NOT NULL,
@@ -102,6 +128,7 @@ CREATE TABLE `users` (
   UNIQUE KEY `id` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+<<<<<<< HEAD
 INSERT INTO users VALUES("1","PI0114","Kirubel Eshetu Tefera","kirubelwinner@gmail.com","F6$;:63]nQ(Th7^x,H@i5#p","+251939806607","System Administrator","1");
 INSERT INTO users VALUES("2","PI0137","Mihiret Dechassa Joro","kirubelwinner@gmail.com","M[4zH$c9,oXcNCM]lGjmQ)","+251921235647","Prison Inspector","1");
 INSERT INTO users VALUES("3","PI2129","Bisrat Mola Adal","kirubelwinner@gmail.com","X}<6$W*>%pC,B?u=qM(7!r~","+251964342505","Security Manager","1");
@@ -109,6 +136,13 @@ INSERT INTO users VALUES("4","PI3486","Maranata Bisrat Mola","Habtamugelana5@gma
 INSERT INTO users VALUES("5","PI5421","Jonatan Bisrat Mola","bedadir4@gmail.com","AT6sdjD#:F#Ra9Zx=C4E5wH","+251949411204","Discipline Officer","1");
 
 
+=======
+INSERT INTO users VALUES("1","PI0114","Kirubel Eshetu Tefera","Kirubelwinner@gmail.com","F6$;:63]nQ(Th7^x,H@i5#p","+251939806607","System Administrator","1");
+INSERT INTO users VALUES("2","PI0137","Hikma Sadik Kedir","Hikma5846@gmail.com","M[4zH$c9,oXcNCM]lGjmQ)","+251921235647","Prison Inspector","1");
+INSERT INTO users VALUES("3","PI2129","Kalab Girma Abera","Kalabegirma49@gmail.com","X}<6$W*>%pC,B?u=qM(7!r~","+251964342505","Security Manager","1");
+INSERT INTO users VALUES("4","PI3486","Habtamu Gelana Diriba","Habtamugelana5@gmail.com","M8i>-1$W3Sa)gJ!dVd8*,#","+25183837365","Record Officer","1");
+INSERT INTO users VALUES("5","PI5421","Biruk Manaye Ula","bedadir4@gmail.com","AT6sdjD#:F#Ra9Zx=C4E5wH","+251949411204","Discipline Officer","1");
+>>>>>>> 7bacc223da19858204fc9f45dc2a5380406a0e20
 
 CREATE TABLE `visitors` (
   `#` int(11) NOT NULL AUTO_INCREMENT,
