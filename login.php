@@ -21,17 +21,17 @@ if (isset($_POST['login_btn'])) {
                 $otp = rand(100000, 999999); // Generating a 6-digit OTP
                 $_SESSION['otp']   = $otp;
                 $_SESSION['pass']  = $password;
-<<<<<<< HEAD
+
                 include '../../backend/PHPMailer/sendemail.php';
                 
                 // Redirect to verify-otp.php after sending email
                 header('location: ../verify-otp.php');
-=======
+
                 include 'PHPMailer/sendemail.php';
                 
                 // Redirect to verify-otp.php after sending email
                 header('location: verify-otp.php');
->>>>>>> 7bacc223da19858204fc9f45dc2a5380406a0e20
+
                 exit(); // Ensure script execution stops after redirection
             } elseif ($status != 1) {
                 // Account is inactive
@@ -80,13 +80,13 @@ if (isset($_POST['login_btn'])) {
             </div>
 
             <div class="prisoner_image">
-                <img src="../images/prisoner-image.jpg" alt="Image of Prisoner" width="100%" height="135px">
+                <img src="public/images/prisoner-image.jpg" alt="Image of Prisoner" width="100%" height="135px">
             </div>
         </div>
     </header>
     <nav class="linknav">
         <ul>
-            <li><a href="../index.html" class="not">Home</a></li>
+            <li><a href="index.html" class="not">Home</a></li>
             <li><a href="#languages">Language</a>
                 <ul id="languages">
                     <li>
