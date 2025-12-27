@@ -1,3 +1,5 @@
+console.log("JZPIS coming up!");
+
 document.addEventListener('DOMContentLoaded', function() {
     const links = document.querySelectorAll('.link');
   
