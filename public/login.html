@@ -34,7 +34,8 @@
                         <div id="google_translate_element"></div>
                     </li>
                     <script type="text/javascript" src="googleTranslate.js"></script>
-                    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                    <script type="text/javascript"
+                        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                 </ul>
             </li>
 
@@ -49,17 +50,22 @@
                 <legend>Welcome User</legend>
                 <p style="font-size: 23px;">Please provide with the required informations.</p>
 
-                <label for="username" style="margin-bottom: 8px; font-size: 22px; text-align: center;">Username (Email) <span style="color: red">*</span> </label>
-                <input id="username" type="email" name="username" placeholder="Insert your username (Email)" required style="margin-bottom: 20px; font-size: 22px; border-radius: 15px; width: 400px; margin-left: 15px;" autocomplete="off" />
+                <label for="username" style="margin-bottom: 8px; font-size: 22px; text-align: center;">Username (Email)
+                    <span style="color: red">*</span> </label>
+                <input id="username" type="email" name="username" placeholder="Insert your username (Email)" required
+                    style="margin-bottom: 20px; font-size: 22px; border-radius: 15px; width: 400px; margin-left: 15px;"
+                    autocomplete="off" />
                 <input type="hidden" id="otp" name="generatedotp" readonly>
-                <label for="password" style="margin-bottom: 8px; font-size: 22px; text-align: center;">Password <span style="color: red">*</label>
-                <input id="password" type="password" name="password" placeholder="Password goes here" required style="margin-bottom: 25px; font-size: 22px; border-radius: 15px; width: 400px; margin-left: 15px;" />
+                <label for="password" style="margin-bottom: 8px; font-size: 22px; text-align: center;">Password <span
+                        style="color: red">*</label>
+                <input id="password" type="password" name="password" placeholder="Password goes here" required
+                    style="margin-bottom: 25px; font-size: 22px; border-radius: 15px; width: 400px; margin-left: 15px;" />
                 <div class="showin">
                     <input type="checkbox" id="show">
                     <label for="show">Show Password</label>
                 </div>
                 <script>
-                    document.getElementById("show").addEventListener("change", function() {
+                    document.getElementById("show").addEventListener("change", function () {
                         var passwordField = document.getElementById("password");
                         if (this.checked) {
                             passwordField.type = "text";
@@ -69,12 +75,13 @@
                         }
                     });
                 </script>
-                <input type="submit" value="Login" id="login-button" class="login_button" name="login_btn" style="font-size: 21px; border-radius: 35px; margin: auto;">
+                <input type="submit" value="Login" id="login-button" class="login_button" name="login_btn"
+                    style="font-size: 21px; border-radius: 35px; margin: auto;">
             </fieldset>
         </form>
     </div>
     <script>
-        document.getElementById("generateOTP").addEventListener("click", function() {
+        document.getElementById("generateOTP").addEventListener("click", function () {
             var otp = generateOTP();
             document.getElementById("otp").value = otp;
         });
