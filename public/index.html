@@ -88,17 +88,6 @@
 
     <div class="time-container">
         <div id="datetime"></div>
-        <script>
-            function updateTime() {
-                var now = new Date();
-                var date = now.toDateString();
-                var time = now.toLocaleTimeString();
-                document.getElementById('datetime').innerHTML = 'Date: ' + date + '<br>Time: ' + time;
-            }
-
-            updateTime();
-            setInterval(updateTime, 1000);
-        </script>
     </div>
 
     <footer>
