@@ -57,6 +57,6 @@ is implemented through a website. The website serves a range of functionalities 
 
  📟 The landing page of the website can be found down below :)
 
- <a href="https://github.com/Kirubel-Eshetu/jzpis"><img src="https://github.com/Kirubel-Eshetu/JZPIS/blob/main/jzpis-landing.png" alt="JZPIS Landing Page"></a>
+ <a href="https://jzpis.vercel.app/"><img src="https://github.com/Kirubel-Eshetu/JZPIS/blob/main/jzpis-landing.png" alt="JZPIS Landing Page"></a>
 
 
