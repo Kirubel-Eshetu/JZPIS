@@ -53,10 +53,10 @@ is implemented through a website. The website serves a range of functionalities 
 
 🧐 Take a look at the documentation for yourself down here 👇🏾
 
- <a href="https://github.com/Kirubel-Eshetu/jzpis/blob/main/frontend/pdf/JZPIS-documentation.pdf" referrerpolicy="no-referrer"><img src="https://github.com/Kirubel-Eshetu/media-repo/blob/main/jzpis-documentation.png" alt="JZPIS Documentation"></a>
+ <a href="https://github.com/Kirubel-Eshetu/jzpis/blob/main/frontend/pdf/JZPIS-documentation.pdf" referrerpolicy="no-referrer"><img src="https://github.com/Kirubel-Eshetu/JZPIS/blob/main/jzpis-documentation.png" alt="JZPIS Documentation"></a>
 
  📟 The landing page of the website can be found down below :)
 
- <a href="https://github.com/Kirubel-Eshetu/jzpis"><img src="https://github.com/Kirubel-Eshetu/media-repo/blob/main/jzpis-landing.png" alt="JZPIS Landing Page"></a>
+ <a href="https://github.com/Kirubel-Eshetu/jzpis"><img src="https://github.com/Kirubel-Eshetu/JZPIS/blob/main/jzpis-landing.png" alt="JZPIS Landing Page"></a>
 
 
